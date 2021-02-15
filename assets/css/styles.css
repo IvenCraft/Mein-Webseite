@@ -31,6 +31,28 @@ h2 {
     background-color: lightcoral;
 }
 
+.footer-section {
+    padding: 18px 0 16px;
+    overflow: hidden;
+    background: #252525;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.copyright {
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #aeaeae;
+}
+
 .animated.flip {
     -webkit-backface-visibility: visible;
     backface-visibility: visible;
