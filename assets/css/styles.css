@@ -2,9 +2,24 @@ body {
     background-color: gray;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.activ {
+    color: red;
+}
+
 .bild {
     height: 250px;
     width: auto;
+    text-align: center;
     border: indigo;
     border: 5px solid red;
     border-radius: 8px;
@@ -35,6 +50,10 @@ h2 {
     padding: 18px 0 16px;
     overflow: hidden;
     background: #252525;
+}
+
+.box {
+    list-style:upper-roman;
 }
 
 .container {
